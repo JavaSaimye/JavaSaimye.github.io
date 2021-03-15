@@ -17,17 +17,17 @@ class Creator {
   img = '';
 }
 let creators = [
-  new Creator('The K Kids', 'img/KOOLKIDS.PNG', '', '', ''),
-  new Creator('CEO Kentin', 'img/KKidceokent.PNG', '', '', ''),
-  new Creator('Nasircrazy', 'img/kkidnasir.png', 'https://instagram.com/kkidsofficial?igshid=9uzq7qmv9m6g', 'http://www.youtube.com', ''),
-  new Creator('Kay', 'img/KKidkay.PNG', '', '', ''),
-  new Creator('Worm', 'img/KKidworm.PNG', '', '', ''),
-  new Creator('Myasia', 'img/KKidmyasia.PNG', '', '', ''),
-  new Creator('Diamond', 'img/KKiddiamond.PNG', '', '', ''),
-  new Creator('Tatii', 'img/KKidtatii.PNG', '', '', ''),
-  new Creator('Anthony', 'img/KKidant.PNG', '', '', ''),
-  new Creator('Ibxp', 'img/KKidibxp.PNG', '', '', ''),
-  new Creator('Journei', 'img/KKidjournei.PNG', '', '', '')
+  new Creator('The K Kids', 'img/KOOLKIDS.PNG', 'https://instagram.com/kkidsofficial?igshid=9uzq7qmv9m6g', 'http://www.youtube.com', ''),
+  new Creator('CEO Kent', 'img/KKidceokent.PNG', 'https://www.instagram.com/kent_the_1_/', 'https://www.youtube.com/channel/UCnULInpXyWyf-UVFgmeGanw', ''),
+  new Creator('KKid Nasircrazy', 'img/kkidnasir.png', '', 'https://www.youtube.com/channel/UCj6xb5we-yemmWV-89o-V8A', ''),
+  new Creator('KKid Kay', 'img/KKidkay.PNG', '', '', ''),
+  new Creator('KKid Worm', 'img/KKidworm.PNG', '', 'https://www.youtube.com/channel/UCpM0hNNFlhUYxX8BCvE0L5g', ''),
+  new Creator('KKid Myasia', 'img/KKidmyasia.PNG', '', '', ''),
+  new Creator('KKid Brii', 'img/KKiddiamond.PNG', '', '', ''),
+  new Creator('KKid Tatii', 'img/KKidtatii.PNG', '', '', ''),
+  new Creator('KKid Ant', 'img/KKidant.PNG', '', '', ''),
+  new Creator(' KKid Ibxp', 'img/KKidibxp.PNG', '', '', ''),
+  new Creator(' KKid Jaay', 'img/KKidjournei.PNG', '', '', '')
 
 ]
 
