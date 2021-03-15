@@ -19,7 +19,7 @@ class Creator {
 let creators = [
   new Creator('The K Kids', 'img/KOOLKIDS.PNG', '', '', ''),
   new Creator('CEO Kentin', 'img/KKidceokent.PNG', '', '', ''),
-  new Creator('Nasircrazy', 'img/kkidnasir.png', 'https://instagram.com/kkidsofficial?igshid=9uzq7qmv9m6g', 'http://www.youtube.com',''),
+  new Creator('Nasircrazy', 'img/kkidNasir.png', 'https://instagram.com/kkidsofficial?igshid=9uzq7qmv9m6g', 'http://www.youtube.com',''),
   new Creator('Kay', 'img/KKidkay.PNG', '', '', ''),
   new Creator('Worm', 'img/KKidworm.PNG', '', '', ''),
   new Creator('Myasia', 'img/KKidmyasia.PNG', '', '', ''),
