@@ -50,7 +50,15 @@ function nextKid(next) {
   document.getElementById("kkidslist").innerHTML += `<img src="${creators[creatorCounter].img}" onclick="location.href='${creators[creatorCounter].ig}'">`
   document.getElementById("kkidslist").innerHTML += `<button onclick="location.href='${creators[creatorCounter].yt}'">${creators[creatorCounter].name}\'s Youtube</button>`;
   document.getElementById("kkidslist").innerHTML += `<button onclick="location.href='${creators[creatorCounter].tiktok}'">${creators[creatorCounter].name}\'s TikTok</button>`;
-
+}
+function ig (){
+  document.getElementById("exampleImage").src = "instagram.jpg";
+}
+function yt (){
+  document.getElementById("exampleImage").src = "youtube.png";
+}
+function tiktok (){
+  document.getElementById("exampleImage").src = "tik-tok-logo.png";
 }
 
 nextKid(true);
