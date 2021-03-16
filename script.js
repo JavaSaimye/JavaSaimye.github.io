@@ -12,10 +12,10 @@ class Creator {
     this.tiktok = tiktok;
   }
   name = '';
-  ig = '';><img id="exampleImage" src="instagram.jpg"/></a>;
-  yt = '';><img id="exampleImage" src="youtube.png"/></a>;
+  ig = '';><img id="exampleImage" src="instagram.jpg"/></a;
+  yt = '';><img id="exampleImage" src="youtube.png"/></a;
   img = '';
-  tiktok ='';><img id="exampleImage" src="tik-tok-logo.png"/></a>;
+  tiktok ='';><img id="exampleImage" src="tik-tok-logo.png"/></a;
 }
 let creators = [
   new Creator('The K Kids', 'img/KOOLKIDS.PNG', 'https://instagram.com/kkidsofficial?igshid=9uzq7qmv9m6g', 'http://www.youtube.com', 'https://vm.tiktok.com/ZMeBVtDNu/'),
