@@ -4,16 +4,16 @@
 
 
 class Creator {
-  constructor(name, img, ig, yt, tiktok) {
+  constructor(name, img, instagram, youtube, tiktok) {
     this.name = name;
     this.img = img;
-    this.ig = ig;
-    this.yt = yt;
+    this.instagram = instagram;
+    this.youtube = youtube;
     this.tiktok = tiktok;
   }
   name = '';
-  ig = '';
-  yt = '';
+  instagram = '';
+  youtube = '';
   img = '';
   tiktok ='';
 }
@@ -56,15 +56,15 @@ function nextKid(next) {
   }
   document.getElementById("kkidslist").innerHTML = `<h2>${creators[creatorCounter].name}</h2>`
   document.getElementById("kkidslist").innerHTML += `<img src="${creators[creatorCounter].img}"
-  document.getElementById("kkidslist").innerHTML += `<button onclick="location.href='${creators[creatorCounter].tiktok}'">${creators[creatorCounter].name}\'s IG</button>`;
-  document.getElementById("kkidslist").innerHTML += `<button onclick="location.href='${creators[creatorCounter].yt}'">${creators[creatorCounter].name}\'s Youtube</button>`;
+  document.getElementById("kkidslist").innerHTML += `<button onclick="location.href='${creators[creatorCounter].instagram}'">${creators[creatorCounter].name}\'s Instagram</button>`;
+  document.getElementById("kkidslist").innerHTML += `<button onclick="location.href='${creators[creatorCounter].youtube}'">${creators[creatorCounter].name}\'s Youtube</button>`;
   document.getElementById("kkidslist").innerHTML += `<button onclick="location.href='${creators[creatorCounter].tiktok}'">${creators[creatorCounter].name}\'s TikTok</button>`;
 }
 
-function ig (){
+function instagram (){
   document.getElementById("exampleImage").src = "instagram.jpg";
 }
-function yt (){
+function youtube (){
   document.getElementById("exampleImage").src = "youtube.png";
 }
 function tiktok (){
