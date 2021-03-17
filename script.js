@@ -11,16 +11,17 @@ class Creator {
     this.youtube = youtube;
     this.tiktok = tiktok;
   }
+
   name = '';
   instagram = '';
   youtube = '';
   img = '';
-  tiktok ='';
+  tiktok = '';
 }
 let creators = [
   new Creator('The K Kids', 'img/KOOLKIDS.PNG', 'https://instagram.com/kkidsofficial?igshid=9uzq7qmv9m6g', 'http://www.youtube.com', 'https://vm.tiktok.com/ZMeBVtDNu/'),
   new Creator('CEO Kent', 'img/KKidceokent.PNG', 'https://www.instagram.com/kent_the_1_/', 'https://www.youtube.com/channel/UCnULInpXyWyf-UVFgmeGanw', 'https://vm.tiktok.com/ZMeBqeRwj/'),
-  new Creator('KKid Nasircrazy','img/kkidnasir.PNG', ' https://instagram.com/antisocial.saimye?igshid=x2ummzof6yj9', 'https://www.youtube.com/channel/UCj6xb5we-yemmWV-89o-V8A', 'www.tiktok.com/@nasircrazy'),
+  new Creator('KKid Nasircrazy', 'img/kkidnasir.PNG', ' https://instagram.com/antisocial.saimye?igshid=x2ummzof6yj9', 'https://www.youtube.com/channel/UCj6xb5we-yemmWV-89o-V8A', 'www.tiktok.com/@nasircrazy'),
   new Creator('KKid Kay', 'img/Kkidkay.PNG', 'https://instagram.com/ssupremediior?igshid=fcn40son7pn0', '', ''),
   new Creator('KKid Worm', 'img/KKidworm.PNG', 'https://instagram.com/antisocialworm?igshid=x3adopxlprnl', 'https://www.youtube.com/channel/UCpM0hNNFlhUYxX8BCvE0L5g', 'https://vm.tiktok.com/ZMeBqJHW2/'),
   new Creator('KKid Myasia', 'img/KKidMyasia.PNG', 'https://instagram.com/iiam_.myasia?igshid=r5qx8jga6yf3', '', ''),
@@ -55,21 +56,16 @@ function nextKid(next) {
     }
   }
   document.getElementById("kkidslist").innerHTML = `<h2>${creators[creatorCounter].name}</h2>`
-  document.getElementById("kkidslist").innerHTML += `<img src="${creators[creatorCounter].img}" onclick="location.href='${creators[creatorCounter].instagram}'">`
-  document.getElementById("kkidslist").innerHTML += `<button onclick="location.href='${creators[creatorCounter].instagram}'">${creators[creatorCounter].name}\'s Instagram</button>`;
-  document.getElementById("kkidslist").innerHTML += `<button onclick="location.href='${creators[creatorCounter].youtube}'">${creators[creatorCounter].name}\'s Youtube</button>`;
-  document.getElementById("kkidslist").innerHTML += `<button onclick="location.href='${creators[creatorCounter].tiktok}'">${creators[creatorCounter].name}\'s TikTok</button>`;
+  document.getElementById("kkidslist").innerHTML += `<img id="kkImage" src="${creators[creatorCounter].img}" onclick="location.href='${creators[creatorCounter].instagram}'">`
+  let pBox = document.createElement('div');
+  pBox.id = 'platformBox';
+  if (creators[creatorCounter].instagram) pBox.innerHTML += `<img class="platformLogo" src="img/instagram.png" onclick="location.href='${creators[creatorCounter].instagram}'">`;
+  if (creators[creatorCounter].youtube) pBox.innerHTML += `<img class="platformLogo" src="img/youtube.png" onclick="location.href='${creators[creatorCounter].youtube}'">`;
+  if (creators[creatorCounter].tiktok) pBox.innerHTML += `<img class="platformLogo" src="img/tik-tok-logo.png" onclick="location.href='${creators[creatorCounter].tiktok}'">`;
+  document.getElementById("kkidslist").appendChild(pBox)
 }
 
-function instagram (){
-  document.getElementById("exampleImage").src = "instagram.jpg";
-}
-function youtube (){
-  document.getElementById("exampleImage").src = "youtube.png";
-}
-function tiktok (){
-  document.getElementById("exampleImage").src = "tik-tok-logo.png";
-}
+
 
 nextKid(true);
 
