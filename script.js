@@ -39,10 +39,10 @@ let creators = [
   new Creator('KKid Mar', 'img/KKidmar.PNG', 'https://instagram.com/prettyyluhh_mar?igshid=ajnmkq252fhc', '', '', '',"#808080"),
   new Creator('KKid Riek', 'img/KKidriek.PNG', 'https://instagram.com/2official.riek?igshid=1j32s9ltnl669', '', '', '',"#000000"),
   new Creator('KKid Vaeh', 'img/KKidveah.PNG', 'https://instagram.com/cheerupnevaeh?igshid=10xeik7y055i0', '', 'https://vm.tiktok.com/ZMeSNUGdj/', '',"#FFFFFF"),
-  new Creator('The KKids Follower Count for Instagram :)', 'img/Followercount.PNG', 'https://socialblade.com/instagram/user/kkidsofficial', '', '', '',"#FF007F"),
-  new Creator('The KKids Follower Count for Youtube :)', 'img/Followercountyt.PNG', '', 'https://socialblade.com/youtube/realtimekids', '', '',"#FF0000"),
-  new Creator('The KKids Follower Count for Tiktok :)', 'img/Followercounttiktok.PNG', '', '', 'https://socialblade.com/tiktok/user/official_kkids', '',"#660033"),
-  new Creator('Content Every Saturday!!!!!!! GO LIKE, COMMENT, AND SHARE LOVE - KKIDS <3 :)', 'img/saturday.PNG', '', '', '', '',"#7ca8c4"),
+  new Creator('The KKids Follower Count for Instagram🤩', 'img/Followercount.PNG', 'https://socialblade.com/instagram/user/kkidsofficial', '', '', '',"#FF007F"),
+  new Creator('The KKids Follower Count for Youtube 😌 ', 'img/Followercountyt.PNG', '', 'https://socialblade.com/youtube/realtimekids', '', '',"#FF0000"),
+  new Creator('The KKids Follower Count for Tiktok 🥶', 'img/Followercounttiktok.PNG', '', '', 'https://socialblade.com/tiktok/user/official_kkids', '',"#660033"),
+  new Creator('Content Every Saturday!!!!!!! GO LIKE, COMMENT, AND SHARE LOVE - KKIDS 💜  ', 'img/saturday.PNG', '', '', '', '',"#7ca8c4"),
 
 ]
 
