@@ -38,7 +38,7 @@ let creators = [
   new Creator('KKid Qutez', 'img/KKidqutez.PNG', 'https://instagram.com/qutez_4ever?igshid=1boro16tk6lzs', 'https://youtube.com/channel/UCJp2CGKZqVxy5FuR0TAGptw', 'https://vm.tiktok.com/ZMeSN1Wn3/', 'https://www.snapchat.com/add/moonlightbaetez',"#CC6600"),
   new Creator('KKid Mar', 'img/KKidmar.PNG', 'https://instagram.com/prettyyluhh_mar?igshid=ajnmkq252fhc', '', '', '',"#808080"),
   new Creator('KKid Riek', 'img/KKidriek.PNG', 'https://instagram.com/2official.riek?igshid=1j32s9ltnl669', '', '', '',"#000000"),
-  new Creator('KKid Vaeh', 'img/KKidveah.PNG', 'https://instagram.com/cheerupnevaeh?igshid=10xeik7y055i0', '', 'https://vm.tiktok.com/ZMeSNUGdj/', '',"#FFFFFF"),
+  new Creator('KKid Vaeh', 'img/KKidvaeh.PNG', 'https://instagram.com/cheerupnevaeh?igshid=10xeik7y055i0', '', 'https://vm.tiktok.com/ZMeSNUGdj/', '',"#03a5fc"),
   new Creator('The KKids Follower Count for Instagram🤩', 'img/Followercount.PNG', 'https://socialblade.com/instagram/user/kkidsofficial', '', '', '',"#FF007F"),
   new Creator('The KKids Follower Count for Youtube 😌 ', 'img/Followercountyt.PNG', '', 'https://socialblade.com/youtube/realtimekids', '', '',"#FF0000"),
   new Creator('The KKids Follower Count for Tiktok 🥶', 'img/Followercounttiktok.PNG', '', '', 'https://socialblade.com/tiktok/user/official_kkids', '',"#660033"),
@@ -75,7 +75,12 @@ function nextKid(next) {
   document.getElementById("kkidslist").appendChild(pBox)
 }
 //  function newKid()
-
+//<select id="cars">
+  //<option value="volvo">Volvo</option>
+  //<option value="saab">Saab</option>
+  //<option value="opel">Opel</option>
+  //<option value="audi">Audi</option>
+//</select>
 
 nextKid(true);
 
