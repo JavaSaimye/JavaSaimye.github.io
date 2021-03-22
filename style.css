@@ -1,5 +1,5 @@
 * {
-  font-family: Lato;
+  font-family: Sans Serif;
 }
 
 html {
@@ -13,13 +13,13 @@ h1, h2, h3, h4, h5 {
 #kkidslist {
   text-align: center;
   border-radius: 5px;
-  color: #00FFFF;
+  color: #FFFFFF;
 }
 
 button {
   border-radius: 5px;
-  background-color: #FFC0CB;
-  color: #000000;
+  background-color: #6600CC;
+  color: #FFFFFF;
 }
 
 .platformLogo{
@@ -34,7 +34,7 @@ button {
 }
 
 #content {
-  background-color: #800080;
+  background-color: #0000FF;
   margin: auto;
   margin-top: 0px;
   margin-bottom: 0px;
