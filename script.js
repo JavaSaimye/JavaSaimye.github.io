@@ -37,7 +37,8 @@ let creators = [
   new Creator('KKid Qutez', 'img/KKidqutez.PNG', 'https://instagram.com/qutez_4ever?igshid=1boro16tk6lzs', 'https://youtube.com/channel/UCJp2CGKZqVxy5FuR0TAGptw', 'https://vm.tiktok.com/ZMeSN1Wn3/', 'https://www.snapchat.com/add/moonlightbaetez',"#CC6600"),
   new Creator('KKid Mar', 'img/KKidmar.PNG', 'https://instagram.com/prettyyluhh_mar?igshid=ajnmkq252fhc', '', '', '',"#808080"),
   new Creator('KKid Riek', 'img/KKidriek.PNG', 'https://instagram.com/2official.riek?igshid=1j32s9ltnl669', '', '', '',"#000000"),
-  new Creator('KKid Vaeh', 'img/KKidveah.PNG', 'https://instagram.com/cheerupnevaeh?igshid=10xeik7y055i0', '', 'https://vm.tiktok.com/ZMeSNUGdj/', '',"#FFFFFF")
+  new Creator('KKid Vaeh', 'img/KKidveah.PNG', 'https://instagram.com/cheerupnevaeh?igshid=10xeik7y055i0', '', 'https://vm.tiktok.com/ZMeSNUGdj/', '',"#FFFFFF"),
+  new Creator('The KKids Follower Count for Instagram :)', 'img/Followercount.PNG', 'https://counts.live/instagram-follower-count/kkidsofficial', '', '', '',"#FF007F"),
 
 
 ]
