@@ -38,13 +38,13 @@ let creators = [
   new Creator('KKid Dink💯', 'img/KKiddink.PNG', 'https://instagram.com/bigdinks03?igshid=16j66u1aiq5bp', 'https://youtu.be/OzrS98x5bZk', 'https://vm.tiktok.com/ZMeSRofrg/', 'https://www.snapchat.com/add/daiyonj22',"#000000"),
   new Creator('KKid Shayy🤪', 'img/KKidshayy.PNG', 'https://instagram.com/picsofshayy?igshid=122l52d7et84w', '', '', '',"#D2691E"),
   new Creator('KKid Mar🥰', 'img/KKidmar.PNG', 'https://instagram.com/prettyyluhh_mar?igshid=ajnmkq252fhc', '', '', '',"#808080"),
+  new Creator('KKid Ibxp🌠', 'img/KKidibxp.PNG', 'https://instagram.com/ibxp__?igshid=apd0qvi73gcl', 'https://soundcloud.com/naim-allison', 'https://vm.tiktok.com/ZMeBqjg5g/','', '#66B2FF'),
   new Creator('KKid Qutez🤍', 'img/KKidqutez.PNG', 'https://instagram.com/qutez_4ever?igshid=1boro16tk6lzs', 'https://youtube.com/channel/UCJp2CGKZqVxy5FuR0TAGptw', 'https://vm.tiktok.com/ZMeSN1Wn3/', 'https://www.snapchat.com/add/moonlightbaetez',"#CC6600"),
   new Creator('KKid Vaeh🦋', 'img/KKidvaeh.PNG', 'https://instagram.com/cheerupnevaeh?igshid=10xeik7y055i0', '', 'https://vm.tiktok.com/ZMeSNUGdj/', '',"#03a5fc"),
   new Creator('The KKids Follower Count for Instagram🤩', 'img/Followercount.PNG', 'https://socialblade.com/instagram/user/kkidsofficial', '', '', '',"#FF007F"),
   new Creator('The KKids Follower Count for Youtube 😌 ', 'img/Followercountyt.PNG', '', 'https://socialblade.com/youtube/realtimekids', '', '',"#FF0000"),
   new Creator('The KKids Follower Count for Tiktok 🥶', 'img/Followercounttiktok.PNG', '', '', 'https://socialblade.com/tiktok/user/official_kkids', '',"#660033"),
   new Creator('Content Every Saturday!!!!!!! GO LIKE, COMMENT, AND SHARE LOVE - KKIDS 💜  ', 'img/saturday.PNG', '', '', '', '',"#7ca8c4",'W'),
-
 ]
 
 creatorCounter = -1;
