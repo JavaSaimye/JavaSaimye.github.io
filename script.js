@@ -43,10 +43,10 @@ let creators = [
 //  new Creator('KKid Ibxp🌠', 'img/KKidibxp.PNG', 'https://instagram.com/ibxp__?igshid=apd0qvi73gcl', 'https://soundcloud.com/naim-allison', 'https://vm.tiktok.com/ZMeBqjg5g/','', '#66B2FF', '#66B2FF'),
   new Creator('KKid Qutez🤍', 'img/KKidqutez.PNG', 'https://instagram.com/qutez_4ever?igshid=1boro16tk6lzs', 'https://youtube.com/channel/UCJp2CGKZqVxy5FuR0TAGptw', 'https://vm.tiktok.com/ZMeSN1Wn3/', 'https://www.snapchat.com/add/moonlightbaetez',"#CC6600","#CC6600"),
   new Creator('KKid Vaeh🦋', 'img/KKidvaeh.PNG', 'https://instagram.com/cheerupnevaeh?igshid=10xeik7y055i0', '', 'https://vm.tiktok.com/ZMeSNUGdj/', '',"#03a5fc","#03a5fc"),
-  new Creator('The KKids Follower Count for Instagram🤩', 'img/Followercount.PNG', 'https://socialblade.com/instagram/user/kkidsofficial', '', '', '',"#FF007F","#FF007F"),
+  new Creator('The KKids Follower Count for Instagram🤩', 'img/FollowercountIg.PNG', 'https://socialblade.com/instagram/user/kkidsofficial', '', '', '',"#000000","#000000"),
   new Creator('The KKids Follower Count for Youtube 😌 ', 'img/Followercountyt.PNG', '', 'https://socialblade.com/youtube/realtimekids', '', '',"#FF0000","#FF0000"),
   new Creator('The KKids Follower Count for Tiktok 🥶', 'img/Followercounttiktok.PNG', '', '', 'https://socialblade.com/tiktok/user/official_kkids', '',"#660033","#660033"),
-  new Creator('Content Every Saturday!!!!!!! GO LIKE, COMMENT, AND SHARE LOVE - KKIDS 💜  ', 'img/saturday.PNG', '', '', '', '',"#7ca8c4","#7ca8c4",'W'),
+  new Creator('Content Every Thursday!!!!!!! GO LIKE, COMMENT, AND SHARE LOVE - KKIDS 💜  ', 'img/thursday.PNG', '', '', '', '',"#7ca8c4","#7ca8c4",'W'),
 ]
 
 creatorCounter = -1;
