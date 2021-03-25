@@ -1,5 +1,5 @@
 * {
-  font-family: Sans Serif;
+  font-family: Train One ;
 }
 
 html {
@@ -32,6 +32,7 @@ button {
 #kkImage {
   width: 315px;
   height: 424px;
+  border-radius: 10px 10px 0px 0px;
 
 }
 
@@ -42,4 +43,13 @@ button {
   margin-bottom: 0px;
   width: 400px;
   height: 100%;
+}
+#platformBox {
+  margin: auto;
+  text-align: center;
+  border-radius: 0px 0px 10px 10px;
+  width: 315px;
+  background-color: #808080;
+  color: #000000;
+
 }
