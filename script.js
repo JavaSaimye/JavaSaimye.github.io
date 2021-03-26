@@ -27,7 +27,7 @@ class Creator {
   merch = '';
 }
 let creators = [
-  new Creator('The K Kids 💚', 'img/KOOLKIDS.PNG', 'https://instagram.com/kkidsofficial?igshid=9uzq7qmv9m6g', 'http://www.youtube.com', 'https://vm.tiktok.com/ZMeBVtDNu/', 'https://www.snapchat.com/add/officialkkids',"#000000","#000000"),
+  new Creator('The K Kids 💜', 'img/KOOLKIDS.PNG', 'https://instagram.com/kkidsofficial?igshid=9uzq7qmv9m6g', 'http://www.youtube.com', 'https://vm.tiktok.com/ZMeBVtDNu/', 'https://www.snapchat.com/add/officialkkids',"#000000","#000000"),
   new Creator('CEO Kent🪐', 'img/KKidceokent.PNG', 'https://www.instagram.com/kent_the_1_/', 'https://www.youtube.com/channel/UCnULInpXyWyf-UVFgmeGanw', 'https://vm.tiktok.com/ZMeBqeRwj/', 'https://www.snapchat.com/add/kent_the1',"#0000FF","#0000FF"),
   new Creator('KKid Nasircrazy💰', 'img/kkidnasir.PNG', ' https://instagram.com/antisocial.saimye?igshid=x2ummzof6yj9', 'https://www.youtube.com/channel/UCj6xb5we-yemmWV-89o-V8A', 'www.tiktok.com/@nasircrazy', 'https://www.snapchat.com/add/butterball1-1',"#66B2FF","#66B2FF" ),
 //  new Creator('KKid Kay', 'img/Kkidkay.PNG', 'https://instagram.com/ssupremediior?igshid=fcn40son7pn0', '', '', '',"#0000FF"),
