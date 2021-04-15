@@ -60,7 +60,17 @@ button {
     display: inline-block;
     border-radius: 2px;
   }
+  body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }
 
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
   .notification:hover {
     background: red;
   }
@@ -83,6 +93,7 @@ button {
     background-color: #f2f2f2;
     padding: 20px 0 30px 0;
   }
+
 
   /* style inputs and link buttons */
   input,
@@ -121,7 +132,17 @@ button {
   }
 
   /* style the submit button */
-  input[type=submit] {
+  input[type=submit] {body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
     background-color: #4CAF50;
     color: white;
     cursor: pointer;
