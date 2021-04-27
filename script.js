@@ -25,6 +25,7 @@ class Creator {
 let creators = [
 
   new Creator('Nasircrazy💰', 'img/nasircrazy.PNG', ' https://instagram.com/antisocial.saimye?igshid=x2ummzof6yj9', 'https://www.youtube.com/channel/UCj6xb5we-yemmWV-89o-V8A', 'www.tiktok.com/@nasircrazy', 'https://www.snapchat.com/add/butterball1-1',"#66B2FF","#66B2FF" ),
+  new Creator('KKid Worm🛸', 'img/KKidworm.PNG', 'https://instagram.com/antisocialworm?igshid=x3adopxlprnl', 'https://www.youtube.com/channel/UCpM0hNNFlhUYxX8BCvE0L5g', 'https://vm.tiktok.com/ZMeBqJHW2/', 'https://www.snapchat.com/add/jjstackz9',"#000000","#000000"),
 
 ]
 
@@ -35,7 +36,7 @@ function nextLink(next) {
   if (next) {
     socialmediaCounter++;
     if (socialmediaCounter >= creators.length) {
-      creatorCounter = 0;
+      socialmediaCounter = 0;
     }
   } else {
     socialmediaCounter--;

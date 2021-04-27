@@ -8,9 +8,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
 
   <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script language="javascript"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
@@ -77,6 +82,51 @@
       el: '.swiper-scrollbar',
     },
   });
+  function SelectRedirect(){
+    // ON selection of section this function will work
+    //alert( document.getElementById('s1').value);
+    switch(document.getElementById('s1').value)
+    {
+      case "Twitch":
+      window.location="https://twitch.tv/nasircrazy";
+      break;
+
+      case "Instagram":
+      window.location="https://instagram.com/saimye_?igshid=5k2n62nprs0h";
+      break;
+
+      case "Youtube":
+      window.location="https://www.youtube.com/channel/UCj6xb5we-yemmWV-89o-V8A";
+      break;
+      case "Twitter":
+      window.location="https://twitter.com/Nasircrazy_";
+      break;
+
+      case "Tiktok":
+      window.location="http://www.tiktok.com/@nasircrazy";
+      break;
+
+      /// Can be extended to other different selections of SubCategory //////
+      default:
+      window.location="../"; // if no selection matches then redirected to home page
+      break;
+    }// end of switch
+  }
+  //////////////////
+</script>
+</head>
+
+<body>
+
+  <SELECT id="s1" NAME="section" onChange="SelectRedirect();">
+    <Option value="">Select Media Outlet 📲</option>
+      <Option value="Twitch">Twitch🎮</option>
+        <Option value="Instagram">Instagram❄️</option>
+          <Option value="Youtube">Youtube📽</option>
+            <Option value="Twitter">Twitter🐦</option>
+              <Option value="Tiktok">Tiktok⌛️</option>
+              </SELECT>
+
 </script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -93,13 +143,15 @@
 </div>
 
 <body>
-  <div id="content">
-    <div id="nextmediaoutlet">
-      <button type="button" name="nextmedia" onclick="nextLink(false)">Previous</button>
-      <button type="button" name="nextmedia" onclick="nextLink(true)">Next</button>
+
     </div>
-    <div id="medialist">
-    </div>
-</body>
+    <div id="content">
+      <div id="nextmediaoutlet">
+        <button type="button" name="nextmedia" onclick="nextLink(false)">Previous</button>
+        <button type="button" name="nextmedia" onclick="nextLink(true)">Next</button>
+      </div>
+      <div id="medialist">
+      </div>
+  </body>
 
 </html>
