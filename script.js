@@ -69,4 +69,4 @@ function nextAbgm(next) {
   document.getElementById("abgmlist").appendChild(pBox)
 }
 
-  nextAbgmm(true);
+  nextAbgm(true);
