@@ -12,7 +12,7 @@ color : #000000;
 
 }
 
-#medialist {
+#abgmlist {
   text-align: center;
   border-radius: 5px;
   color: #FFFFFF;
@@ -29,7 +29,7 @@ button {
   height: 50px;
 
 }
-#nasircrazyImage {
+#abgmImage {
   width: 315px;
   height: 424px;
   border-radius: 10px 10px 0px 0px;
@@ -60,17 +60,7 @@ button {
     display: inline-block;
     border-radius: 2px;
   }
-  body {
-    padding: 25px;
-    background-color: white;
-    color: black;
-    font-size: 25px;
-  }
 
-  .dark-mode {
-    background-color: black;
-    color: white;
-  }
   .notification:hover {
     background: red;
   }
@@ -94,7 +84,6 @@ button {
     padding: 20px 0 30px 0;
   }
 
-
   /* style inputs and link buttons */
   input,
   .btn {
@@ -115,19 +104,28 @@ button {
     opacity: 1;
   }
 
+  /* add appropriate colors to fb, twitter and google buttons */
+  .fb {
+    background-color: #3B5998;
+    color: white;
+  }
+
+  .twitter {
+    background-color: #55ACEE;
+    color: white;
+  }
+
+  .google {
+    background-color: #dd4b39;
+    color: white;
+  }
+
   /* style the submit button */
-  input[type=submit] {body {
-  padding: 25px;
-  background-color: white;
-  color: black;
-  font-size: 25px;
-}
-
-.dark-mode {
-  background-color: black;
-  color: white;
-}
-
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
 
   input[type=submit]:hover {
     background-color: #45a049;
