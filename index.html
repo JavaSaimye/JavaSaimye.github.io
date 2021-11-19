@@ -1,6 +1,7 @@
 <html>
 
 <head>
+
   <title> ABGM'S media outlet </title>
   <script src="script.js" charset="utf-8" defer></script>
   <link rel="stylesheet" href="style.css">
@@ -29,36 +30,85 @@
 
     </div>
   </form>
+</div>
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">Abgm's Youtube</div>
+    <img src="img/abgmyoutube.png" alt="">
+      </div>
+    <a href="#">https://www.youtube.com/channel/UCj6xb5we-yemmWV-89o-V8A</a>
+    <div class="swiper-slide">Abgm's Instagram</div>
+    <img src="img/instagramm.png" alt="">
+      </div>
+    <a href="#">https://instagram.com/antisocial.saimye?igshid=x2ummzof6yj9</a>
+    <div class="swiper-slide"> Holidays ABGM themed</div>
+    <img src="img/.png" alt="">
+    <a href="#"></a>
+      </div>
+  <div class="swiper-pagination"></div>
 
-  <!-- Slider main container -->
-  <div class="swiper">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-      <!-- Slides -->
-      <div class="swiper-slide">Abgm's Youtube</div>
-      <img src="img/abgmyoutube.png" alt="">
-        </div>
-      <a href="#">https://www.youtube.com/channel/UCj6xb5we-yemmWV-89o-V8A</a>
-      <div class="swiper-slide">Abgm's Instagram</div>
-      <img src="img/instagramm.png" alt="">
-        </div>
-      <a href="#">https://instagram.com/antisocial.saimye?igshid=x2ummzof6yj9</a>
-      <div class="swiper-slide"> Holidays ABGM themed</div>
-      <img src="img/.png" alt="">
-      <a href="#"></a>
-        </div>
-      ...
-    </div>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
 
-    <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
+  <div class="swiper-scrollbar"></div>
+</div>
+<script type="text/javascript">
+  const swiper = new Swiper('.swiper-container', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
 
-    <!-- If we need scrollbar -->
-    <div class="swiper-scrollbar"></div>
-  </div>
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });
+  function SelectRedirect(){
+    // ON selection of section this function will work
+    //alert( document.getElementById('s1').value);
+    switch(document.getElementById('s1').value)
+    {
+      case "Twitch":
+      window.location="https://twitch.tv/nasircrazy";
+      break;
+
+      case "Instagram":
+      window.location="https://instagram.com/saimye_?igshid=5k2n62nprs0h";
+      break;
+
+      case "Youtube":
+      window.location="https://www.youtube.com/channel/UCj6xb5we-yemmWV-89o-V8A";
+      break;
+      case "Twitter":
+      window.location="https://twitter.com/Nasircrazy_";
+      break;
+
+      case "Tiktok":
+      window.location="http://www.tiktok.com/@nasircrazy";
+      break;
+
+      /// Can be extended to other different selections of SubCategory //////
+      default:
+      window.location="../"; // if no selection matches then redirected to home page
+      break;
+    }// end of switch
+  }
+  //////////////////
+</script>
+-->
 </head>
 
 <body>
