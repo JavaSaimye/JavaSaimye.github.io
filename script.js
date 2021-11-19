@@ -30,9 +30,9 @@ let creators = [
   new Creator('Swervo🏋🏽‍♂️', 'img/swervo.PNG', 'https://instagram.com/antisocial.swervo?igshid=17j8dz3kwfls', 'https://www.youtube.com/channel/UCpWpfHnYYR7VbqstUSJ5PJA', 'https://vm.tiktok.com/ZMeA7vHL3/', 'https://www.snapchat.com/add/yrnsebastian',"#994C00","#994C00"),
   new Creator('Jeff🗽', 'img/jeff.PNG', 'https://instagram.com/abgm.jeff?utm_medium=copy_link', 'https://www.youtube.com/channel/UCpM0hNNFlhUYxX8BCvE0L5g', 'https://vm.tiktok.com/TTPd2j68Kf/', 'https://www.snapchat.com/add/ny.val?share_id=NDEzN0Ux&locale=en_US',"#000000","#000000"),
   new Creator('Angel⚾️', 'img/angel.PNG', 'https://instagram.com/abgm.boogz?utm_medium=copy_link', 'https://www.youtube.com/channel/UCpM0hNNFlhUYxX8BCvE0L5g', 'https://vm.tiktok.com/TTPd2jx18Q/', 'https://www.snapchat.com/add/sportskidd23',"#000000","#000000"),
-  new Creator('The ABGM Follower Count for Instagram🤩', 'img/FollowercountIg.PNG', 'https://socialblade.com/instagram/user/kkidsofficial', '', '', '',"#000000","#000000"),
-  new Creator('The ABGM Follower Count for Youtube 😌 ', 'img/Followercountyt.PNG', '', 'https://socialblade.com/youtube/channel/UCj6xb5we-yemmWV-89o-V8A/realtime', '', '',"#FF0000","#FF0000"),
-  new Creator('The ABGM Follower Count for Tiktok 🥶', 'img/Followercounttiktok.PNG', '', '', 'tiktok', '',"#660033","#660033"),
+  new Creator('The ABGM Follower Count for Instagram🤩', 'img/countig.PNG', 'https://socialblade.com/instagram/user/kkidsofficial', '', '', '',"#000000","#000000"),
+  new Creator('The ABGM Follower Count for Youtube 😌 ', 'img/countyt.PNG', '', 'https://socialblade.com/youtube/channel/UCj6xb5we-yemmWV-89o-V8A/realtime', '', '',"#FF0000","#FF0000"),
+  new Creator('The ABGM Follower Count for Tiktok 🥶', 'img/counttiktok.PNG', '', '', 'tiktok', '',"#660033","#660033"),
   new Creator('Content Every Friday!!!!!!! GO LIKE, COMMENT, AND SHARE LOVE - ABGM 🖤  ', 'img/friday.PNG', '', '', '', '',"#7ca8c4","#7ca8c4",'W'),
 ]
 
