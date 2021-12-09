@@ -9,8 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="/resources/demos/style.css">
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="/resources/demos/style.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
 
   <script language="javascript"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -67,73 +66,7 @@
       break;
     }// end of switch
   }
-  function() {
-    // run the currently selected effect
-    function runEffect() {
-      // get effect type from
-      var selectedEffect = $( "#effectTypes" ).val();
-
-      // Most effect types need no options passed by default
-      var options = {};
-      // some effects have required parameters
-      if ( selectedEffect === "scale" ) {
-        options = { percent: 50 };
-      } else if ( selectedEffect === "transfer" ) {
-        options = { to: "#button", className: "ui-effects-transfer" };
-      } else if ( selectedEffect === "size" ) {
-        options = { to: { width: 200, height: 60 } };
-      }
-
-      // Run the effect
-      $( "#effect" ).effect( selectedEffect, options, 500, callback );
-    };
-
-    // Callback function to bring a hidden box back
-    function callback() {
-      setTimeout(function() {
-        $( "#effect" ).removeAttr( "style" ).hide().fadeIn();
-      }, 1000 );
-    };
-
-    // Set effect from select menu value
-    $( "#button" ).on( "click", function() {
-      runEffect();
-      return false;
-    });
-  } );
-</script>
-</head>
-<body>
-
-  <div class="toggler">
-    <div id="effect" class="ui-widget-content ui-corner-all">
-      <h3 class="ui-widget-header ui-corner-all">Effect</h3>
-      <p>
-        ABGMS NEWEST VIDEO DROPS FRIDAY 12 PM EST / 9 AM PST
-      </p>
-    </div>
-  </div>
-
-  <select name="effects" id="effectTypes">
-    <option value="blind">Blind</option>
-    <option value="bounce">Bounce</option>
-    <option value="clip">Clip</option>
-    <option value="drop">Drop</option>
-    <option value="explode">Explode</option>
-    <option value="fade">Fade</option>
-    <option value="fold">Fold</option>
-    <option value="highlight">Highlight</option>
-    <option value="puff">Puff</option>
-    <option value="pulsate">Pulsate</option>
-    <option value="scale">Scale</option>
-    <option value="shake">Shake</option>
-    <option value="size">Size</option>
-    <option value="slide">Slide</option>
-    <option value="transfer">Transfer</option>
-  </select>
-
-  <button id="button" class="ui-state-default ui-corner-all">Run Effect</button>
-
+  //////////////////
 </script>
 
 </head>
@@ -163,6 +96,27 @@
   <a href="#contact">Contact</a>
 
 </div>
+<style>
+  div {
+    width: 100px;
+    height: 100px;
+    background: #ccc;
+    border: 1px solid #000;
+  }
+  </style>
+  <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+
+<p>ABGMS NEWEST VIDEO DROPS FRIDAY 12 PM EST / 9 AM PST.</p>
+<div></div>
+
+<script>
+$( document ).click(function() {
+  $( "div" ).effect( "bounce", "slow" );
+});
+</script>
 <body>
   <div id="content">
     <div id="buttonsBox">
@@ -171,6 +125,7 @@
     </div>
     <div id="abgmlist">
 </div>
+
 </body>
 
 </html>
