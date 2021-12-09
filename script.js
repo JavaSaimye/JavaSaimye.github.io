@@ -24,7 +24,7 @@ class Creator {
   merch = '';
 }
 let creators = [
-  new Creator('ABGM 🖤', 'img/abgm.PNG', 'INSTA', 'https://www.youtube.com/channel/UCj6xb5we-yemmWV-89o-V8A', 'https://vm.tiktok.com/TTPd2jmsy6/', 'SNAP',"#000000","#000000"),
+  new Creator('ABGM 🖤', 'img/abgm.PNG', 'INSTA', 'https://www.youtube.com/channel/UCj6xb5we-yemmWV-89o-V8A', 'https://vm.tiktok.com/TTPd2jmsy6/', 'SNAP',"rgba(0, 0, 0, 0.5),"rgba(0, 0, 0, 0.5)"),
   new Creator('Nasircrazy🦋', 'img/nasircrazy.PNG', ' https://instagram.com/antisocial.saimye?igshid=x2ummzof6yj9', 'https://www.youtube.com/channel/UC6nsy6Qk9W1ffOuZqRVGUpg', 'www.tiktok.com/@nasircrazy', 'https://www.snapchat.com/add/butterball1-1',"#66B2FF","#66B2FF" ),
   new Creator('Worm 🇩🇴', 'img/worm.PNG', 'https://instagram.com/antisocialworm?igshid=x3adopxlprnl', 'https://www.youtube.com/channel/UCpM0hNNFlhUYxX8BCvE0L5g', 'https://vm.tiktok.com/ZMeBqJHW2/', 'https://www.snapchat.com/add/jjstackz9',"#000000","#000000"),
   new Creator('Swervo🏋🏽‍♂️', 'img/swervo.PNG', 'https://instagram.com/antisocial.swervo?igshid=17j8dz3kwfls', 'https://www.youtube.com/channel/UCpWpfHnYYR7VbqstUSJ5PJA', 'https://vm.tiktok.com/ZMeA7vHL3/', 'https://www.snapchat.com/add/yrnsebastian',"#994C00","#994C00"),
